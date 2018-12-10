@@ -1,20 +1,30 @@
 // use: while loop
 // don't use: *, / and %
 function getReminder(dividend, divider) {
-  return 2;
+  while ( dividend >= divider) {
+  dividend = dividend - divider;
+}
+  return dividend;
 }
 
-// use: while loop
-// don't use: *, / and %
 function integerDivision(dividend, divider) {
-  return 2;
-}
+  var chek = 0;
+  while ( dividend >= divider) {
+    dividend = dividend - divider;
+    chek++;
+  }
+    return chek;}
+
+
+
+
+
 
 // * bank deposit calculator
 // use: while loop
 // don't use: *, / and %
 function getDepositDuration(initialDeposit, monthlyPercent, desiredDeposit) {
   var monthCounter = 0;
-
+  
   return monthCounter;
 }
